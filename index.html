@@ -1,1096 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>DevNova | Web Developer, Tutorials & Projects</title>
-
-    <meta name="description"
-        content="DevNova is a modern developer website featuring web development tutorials, projects, coding resources, and developer tools.">
-
-    <meta name="keywords"
-        content="HTML, CSS, JavaScript, React, Python, Developer, Tutorials, Projects">
-
-    <meta name="author" content="DevNova">
-
-    <meta property="og:title" content="DevNova">
-    <meta property="og:description"
-        content="Learn Web Development with Projects & Tutorials">
-
-    <meta property="og:type" content="website">
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <script defer src="js/app.js"></script>
-</head>
-
-<body>
-
-<header>
-
-<nav class="navbar">
-
-<div class="container">
-
-<a href="#" class="logo">
-DevNova
-</a>
-
-<ul class="nav-links">
-
-<li><a href="#home">Home</a></li>
-
-<li><a href="#about">About</a></li>
-
-<li><a href="#skills">Skills</a></li>
-
-<li><a href="#projects">Projects</a></li>
-
-<li><a href="#tutorials">Tutorials</a></li>
-
-<li><a href="#blog">Blog</a></li>
-
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-<button class="menu-btn">
-
-☰
-
-</button>
-
-</div>
-
-</nav>
-
-</header>
-
-<section id="home" class="hero">
-
-<div class="container hero-content">
-
-<div class="hero-text">
-
-<h1>
-
-Master Modern Web Development
-
-</h1>
-
-<p>
-
-Build real-world websites using HTML, CSS, JavaScript, React and Python with free tutorials, projects and coding resources.
-
-</p>
-
-<div class="hero-buttons">
-
-<a href="#tutorials" class="btn">
-
-Start Learning
-
-</a>
-
-<a href="#projects" class="btn-outline">
-
-View Projects
-
-</a>
-
-</div>
-
-</div>
-
-<div class="hero-image">
-
-<img src="images/hero.svg" alt="Developer">
-
-</div>
-
-</div>
-
-</section>
-
-<section class="stats">
-
-<div class="container">
-
-<div class="stat-box">
-
-<h2>50+</h2>
-
-<p>Tutorials</p>
-
-</div>
-
-<div class="stat-box">
-
-<h2>20+</h2>
-
-<p>Projects</p>
-
-</div>
-
-<div class="stat-box">
-
-<h2>10+</h2>
-
-<p>Developer Tools</p>
-
-</div>
-
-<div class="stat-box">
-
-<h2>5K+</h2>
-
-<p>Monthly Readers</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="about" class="about">
-
-<div class="container">
-
-<h2>About DevNova</h2>
-
-<p>
-
-DevNova is dedicated to helping aspiring developers master modern web technologies through practical tutorials, hands-on projects, and useful coding resources.
-
-</p>
-
-<p>
-
-Whether you're just starting with HTML or building advanced JavaScript applications, you'll find clear guides designed to help you improve your skills.
-
-</p>
-
-</div>
-
-</section>
-
-<section id="skills" class="skills">
-
-<div class="container">
-
-<h2>Technologies</h2>
-
-<div class="skills-grid">
-
-<div class="skill-card">
-
-<h3>HTML5</h3>
-
-<p>Create semantic, accessible web pages.</p>
-
-</div>
-
-<div class="skill-card">
-
-<h3>CSS3</h3>
-
-<p>Responsive layouts, Flexbox, Grid and animations.</p>
-
-</div>
-
-<div class="skill-card">
-
-<h3>JavaScript</h3>
-
-<p>Interactive web applications using modern ES6+.</p>
-
-</div>
-
-<div class="skill-card">
-
-<h3>React</h3>
-
-<p>Build scalable frontend applications.</p>
-
-</div>
-
-<div class="skill-card">
-
-<h3>Python</h3>
-
-<p>Automation, scripting and backend fundamentals.</p>
-
-</div>
-
-<div class="skill-card">
-
-<h3>Git & GitHub</h3>
-
-<p>Version control and team collaboration.</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-    <!-- ========================= -->
-<!-- FEATURED PROJECTS -->
-<!-- ========================= -->
-
-<section id="projects" class="projects">
-
-<div class="container">
-
-<h2 class="section-title">Featured Projects</h2>
-
-<p class="section-subtitle">
-Explore practical projects built using modern web technologies.
-</p>
-
-<div class="project-grid">
-
-<div class="project-card">
-
-<img src="images/projects/weather.jpg" alt="Weather App">
-
-<div class="project-content">
-
-<h3>Weather Dashboard</h3>
-
-<p>
-A responsive weather application using JavaScript and OpenWeather API.
-</p>
-
-<div class="project-tags">
-<span>HTML</span>
-<span>CSS</span>
-<span>JavaScript</span>
-</div>
-
-<a href="#" class="btn-small">Live Demo</a>
-
-<a href="#" class="btn-small-outline">Source Code</a>
-
-</div>
-
-</div>
-
-<div class="project-card">
-
-<img src="images/projects/ecommerce.jpg" alt="E-Commerce">
-
-<div class="project-content">
-
-<h3>E-Commerce Website</h3>
-
-<p>
-Modern shopping website with product pages, cart and responsive design.
-</p>
-
-<div class="project-tags">
-<span>HTML</span>
-<span>CSS</span>
-<span>Bootstrap</span>
-</div>
-
-<a href="#" class="btn-small">Live Demo</a>
-
-<a href="#" class="btn-small-outline">Source Code</a>
-
-</div>
-
-</div>
-
-<div class="project-card">
-
-<img src="images/projects/task.jpg" alt="Task App">
-
-<div class="project-content">
-
-<h3>Task Manager</h3>
-
-<p>
-A productivity application with local storage and drag & drop support.
-</p>
-
-<div class="project-tags">
-<span>JavaScript</span>
-<span>LocalStorage</span>
-</div>
-
-<a href="#" class="btn-small">Live Demo</a>
-
-<a href="#" class="btn-small-outline">Source Code</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================= -->
-<!-- LATEST TUTORIALS -->
-<!-- ========================= -->
-
-<section id="tutorials" class="tutorials">
-
-<div class="container">
-
-<h2 class="section-title">
-Latest Tutorials
-</h2>
-
-<div class="tutorial-grid">
-
-<div class="tutorial-card">
-
-<h3>HTML Complete Guide</h3>
-
-<p>
-Learn HTML from beginner to advanced with examples.
-</p>
-
-<a href="#">
-Read More →
-</a>
-
-</div>
-
-<div class="tutorial-card">
-
-<h3>CSS Flexbox Masterclass</h3>
-
-<p>
-Create responsive layouts like a professional developer.
-</p>
-
-<a href="#">
-Read More →
-</a>
-
-</div>
-
-<div class="tutorial-card">
-
-<h3>JavaScript ES6 Guide</h3>
-
-<p>
-Understand modern JavaScript features with practical examples.
-</p>
-
-<a href="#">
-Read More →
-</a>
-
-</div>
-
-<div class="tutorial-card">
-
-<h3>React Components</h3>
-
-<p>
-Learn reusable components and modern frontend architecture.
-</p>
-
-<a href="#">
-Read More →
-</a>
-
-</div>
-
-<div class="tutorial-card">
-
-<h3>Python for Beginners</h3>
-
-<p>
-Build your programming foundation with Python.
-</p>
-
-<a href="#">
-Read More →
-</a>
-
-</div>
-
-<div class="tutorial-card">
-
-<h3>Git & GitHub</h3>
-
-<p>
-Version control, branching and collaboration made easy.
-</p>
-
-<a href="#">
-Read More →
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================= -->
-<!-- WHY CHOOSE US -->
-<!-- ========================= -->
-
-<section class="features">
-
-<div class="container">
-
-<h2 class="section-title">
-Why Learn With DevNova?
-</h2>
-
-<div class="feature-grid">
-
-<div class="feature-card">
-
-<h3>Project-Based Learning</h3>
-
-<p>
-Build real-world applications instead of only reading theory.
-</p>
-
-</div>
-
-<div class="feature-card">
-
-<h3>Modern Technologies</h3>
-
-<p>
-Learn HTML5, CSS3, JavaScript, React, Python and Git.
-</p>
-
-</div>
-
-<div class="feature-card">
-
-<h3>Completely Free</h3>
-
-<p>
-Access tutorials, tools and coding resources without cost.
-</p>
-
-</div>
-
-<div class="feature-card">
-
-<h3>SEO Friendly Guides</h3>
-
-<p>
-Well-structured articles designed for easy reading and learning.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================= -->
-<!-- DEVELOPER TOOLS -->
-<!-- ========================= -->
-
-<section class="tools">
-
-<div class="container">
-
-<h2 class="section-title">
-Free Developer Tools
-</h2>
-
-<div class="tools-grid">
-
-<div class="tool-card">
-<h3>Password Generator</h3>
-<p>Create secure passwords instantly.</p>
-</div>
-
-<div class="tool-card">
-<h3>JSON Formatter</h3>
-<p>Beautify and validate JSON.</p>
-</div>
-
-<div class="tool-card">
-<h3>CSS Gradient Generator</h3>
-<p>Create beautiful gradients visually.</p>
-</div>
-
-<div class="tool-card">
-<h3>QR Code Generator</h3>
-<p>Generate QR codes for any URL.</p>
-</div>
-
-<div class="tool-card">
-<h3>Color Palette Generator</h3>
-<p>Generate modern color combinations.</p>
-</div>
-
-<div class="tool-card">
-<h3>Base64 Encoder</h3>
-<p>Encode and decode text instantly.</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-    <!-- ========================================= -->
-<!-- BLOG PREVIEW -->
-<!-- ========================================= -->
-
-<section id="blog" class="blog">
-
-<div class="container">
-
-<div class="section-header">
-
-<h2>Latest Articles</h2>
-
-<p>
-Fresh programming tutorials and web development guides published regularly.
-</p>
-
-</div>
-
-<div class="blog-grid">
-
-<article class="blog-card">
-
-<img src="images/blog/html.jpg" alt="HTML">
-
-<div class="blog-content">
-
-<span class="category">HTML</span>
-
-<h3>25 HTML Tips Every Developer Should Know</h3>
-
-<p>
-Improve your HTML skills with semantic elements, accessibility tips and best practices.
-</p>
-
-<a href="#">Read Article →</a>
-
-</div>
-
-</article>
-
-<article class="blog-card">
-
-<img src="images/blog/css.jpg" alt="CSS">
-
-<div class="blog-content">
-
-<span class="category">CSS</span>
-
-<h3>Modern CSS Tricks in 2026</h3>
-
-<p>
-Master Grid, Flexbox, Variables, Animations and Container Queries.
-</p>
-
-<a href="#">Read Article →</a>
-
-</div>
-
-</article>
-
-<article class="blog-card">
-
-<img src="images/blog/js.jpg" alt="JavaScript">
-
-<div class="blog-content">
-
-<span class="category">JavaScript</span>
-
-<h3>Understanding Async JavaScript</h3>
-
-<p>
-Promises, async/await and the Event Loop explained simply.
-</p>
-
-<a href="#">Read Article →</a>
-
-</div>
-
-</article>
-
-</div>
-
-<div class="center-btn">
-
-<a href="blog.html" class="btn">
-View All Articles
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================================= -->
-<!-- TESTIMONIALS -->
-<!-- ========================================= -->
-
-<section class="testimonials">
-
-<div class="container">
-
-<h2>What Learners Say</h2>
-
-<div class="testimonial-grid">
-
-<div class="testimonial">
-
-<p>
-"One of the easiest websites to learn JavaScript from."
-</p>
-
-<h4>⭐⭐⭐⭐⭐</h4>
-
-<span>Web Development Student</span>
-
-</div>
-
-<div class="testimonial">
-
-<p>
-"The projects helped me build my portfolio much faster."
-</p>
-
-<h4>⭐⭐⭐⭐⭐</h4>
-
-<span>Frontend Developer</span>
-
-</div>
-
-<div class="testimonial">
-
-<p>
-"Simple explanations with practical examples."
-</p>
-
-<h4>⭐⭐⭐⭐⭐</h4>
-
-<span>Self-Taught Programmer</span>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================================= -->
-<!-- WEBSITE FEATURES -->
-<!-- ========================================= -->
-
-<section class="advantages">
-
-<div class="container">
-
-<h2>Why Developers Choose DevNova</h2>
-
-<div class="advantages-grid">
-
-<div>
-
-<h3>📚 100% Free Tutorials</h3>
-
-<p>
-No subscriptions. No hidden costs.
-</p>
-
-</div>
-
-<div>
-
-<h3>💻 Real Projects</h3>
-
-<p>
-Practice by building complete applications.
-</p>
-
-</div>
-
-<div>
-
-<h3>⚡ Fast Learning</h3>
-
-<p>
-Short, practical lessons with source code.
-</p>
-
-</div>
-
-<div>
-
-<h3>🔄 Updated Regularly</h3>
-
-<p>
-Content is expanded frequently with new technologies.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================================= -->
-<!-- FAQ -->
-<!-- ========================================= -->
-
-<section class="faq">
-
-<div class="container">
-
-<h2>Frequently Asked Questions</h2>
-
-<div class="faq-item">
-
-<h3>Are all tutorials free?</h3>
-
-<p>
-Yes. Every tutorial on DevNova is available without charge.
-</p>
-
-</div>
-
-<div class="faq-item">
-
-<h3>Can beginners learn here?</h3>
-
-<p>
-Absolutely. Tutorials start from the basics and gradually progress to advanced topics.
-</p>
-
-</div>
-
-<div class="faq-item">
-
-<h3>Do you provide project source code?</h3>
-
-<p>
-Yes. Projects include explanations and downloadable source code where applicable.
-</p>
-
-</div>
-
-<div class="faq-item">
-
-<h3>How often is new content published?</h3>
-
-<p>
-New tutorials and tools are added on a regular basis.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ========================================= -->
-<!-- NEWSLETTER -->
-<!-- ========================================= -->
-
-<section class="newsletter">
-
-<div class="container">
-
-<h2>Join Our Developer Community</h2>
-
-<p>
-
-Receive tutorials, project ideas and coding tips directly in your inbox.
-
-</p>
-
-<form>
-
-<input
-type="email"
-placeholder="Enter your email address"
-required>
-
-<button type="submit">
-
-Subscribe
-
-</button>
-
-</form>
-
-</div>
-
-</section>
-
-<!-- ========================================= -->
-<!-- CALL TO ACTION -->
-<!-- ========================================= -->
-
-<section class="cta">
-
-<div class="container">
-
-<h2>
-
-Ready to Become a Better Developer?
-
-</h2>
-
-<p>
-
-Start learning today with practical tutorials, free coding tools and real-world projects.
-
-</p>
-
-<a href="#tutorials" class="btn">
-
-Start Learning
-
-</a>
-
-</div>
-
-</section>
-
-    <!-- ========================= -->
-<!-- CONTACT -->
-<!-- ========================= -->
-
-<section id="contact" class="contact">
-
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Contact Me</h2>
-            <p>Have a question, project idea, or collaboration opportunity? Get in touch.</p>
-        </div>
-
-        <div class="contact-wrapper">
-
-            <div class="contact-info">
-
-                <h3>Let's Connect</h3>
-
-                <p>
-                    I'm passionate about creating modern web applications,
-                    sharing programming tutorials, and helping developers
-                    improve their skills.
-                </p>
-
-                <div class="info-item">
-                    <strong>Email</strong>
-                    <p>contact@devnova.dev</p>
-                </div>
-
-                <div class="info-item">
-                    <strong>Location</strong>
-                    <p>India</p>
-                </div>
-
-                <div class="info-item">
-                    <strong>Availability</strong>
-                    <p>Open for Freelance & Collaboration</p>
-                </div>
-
-            </div>
-
-            <form class="contact-form">
-
-                <input
-                    type="text"
-                    placeholder="Your Name"
-                    required>
-
-                <input
-                    type="email"
-                    placeholder="Your Email"
-                    required>
-
-                <input
-                    type="text"
-                    placeholder="Subject">
-
-                <textarea
-                    rows="7"
-                    placeholder="Write your message..."
-                    required></textarea>
-
-                <button type="submit" class="btn">
-                    Send Message
-                </button>
-
-            </form>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ========================= -->
-<!-- FOOTER -->
-<!-- ========================= -->
-
-<footer>
-
-<div class="container footer-grid">
-
-<div>
-
-<h3>DevNova</h3>
-
-<p>
-
-Learn modern web development through practical tutorials,
-real projects and free developer tools.
-
-</p>
-
-</div>
-
-<div>
-
-<h4>Tutorials</h4>
-
-<ul>
-
-<li><a href="#">HTML</a></li>
-<li><a href="#">CSS</a></li>
-<li><a href="#">JavaScript</a></li>
-<li><a href="#">React</a></li>
-<li><a href="#">Python</a></li>
-
-</ul>
-
-</div>
-
-<div>
-
-<h4>Resources</h4>
-
-<ul>
-
-<li><a href="#">Projects</a></li>
-<li><a href="#">Developer Tools</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="#">FAQs</a></li>
-
-</ul>
-
-</div>
-
-<div>
-
-<h4>Legal</h4>
-
-<ul>
-
-<li><a href="about.html">About</a></li>
-
-<li><a href="privacy.html">
-Privacy Policy
-</a></li>
-
-<li><a href="terms.html">
-Terms & Conditions
-</a></li>
-
-<li><a href="disclaimer.html">
-Disclaimer
-</a></li>
-
-<li><a href="cookies.html">
-Cookie Policy
-</a></li>
-
-</ul>
-
-</div>
-
-</div>
-
-<hr>
-
-<div class="copyright">
-
-<p>
-
-© 2026 DevNova.
-All Rights Reserved.
-
-</p>
-
-</div>
-
-</footer>
-
-<!-- ========================= -->
-<!-- COOKIE NOTICE -->
-<!-- ========================= -->
-
-<div id="cookie-banner" class="cookie-banner">
-
-<p>
-
-This website uses cookies to improve your experience.
-
-</p>
-
-<button id="acceptCookies">
-
-Accept
-
-</button>
-
-</div>
-
-<!-- ========================= -->
-<!-- SCHEMA.ORG SEO -->
-<!-- ========================= -->
-
-<script type="application/ld+json">
-
-{
-"@context":"https://schema.org",
-"@type":"WebSite",
-"name":"DevNova",
-"url":"https://yourdomain.com",
-"description":"Programming Tutorials, Developer Tools and Web Development Resources.",
-"potentialAction":{
-"@type":"SearchAction",
-"target":"https://yourdomain.com/search?q={search_term_string}",
-"query-input":"required name=search_term_string"
-}
-}
-
+    <title>Mohit Dabas | Rockstar Portfolio</title>
+    
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
 </script>
 
-<script src="js/app.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3434677243870240"
+     crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo-box">
+            <div class="logo">R</div>
+        </div>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3434677243870240"
+     crossorigin="anonymous"></script>
+<!-- Google -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3434677243870240"
+     data-ad-slot="5755071314"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <ul class="nav-links">
+            <li><a class="active" href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <p class="small-text">HELLO, I'M</p>
+
+            <h1>
+                <span class="white-text">MOHIT</span><br>
+                <span class="yellow-text">DABAS</span>
+            </h1>
+
+            <div class="tag-box">
+                ASPIRING DEVELOPER
+            </div>
+
+            <p class="future-text">
+                FUTURE ROCKSTAR GAMES DEV ★
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn yellow-btn">
+                    VIEW PROJECTS
+                    <span>›</span>
+                </a>
+
+                <a href="#contact" class="btn transparent-btn">
+                    CONTACT ME
+                    <span>›</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="vertical-text">
+            MOHIT DABAS
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section section">
+        <div class="about-left">
+            <div class="about-image"></div>
+        </div>
+
+        <div class="about-right">
+            <p class="section-small">ABOUT ME</p>
+            <h2>WHO AM I?</h2>
+
+            <p>
+                Hi! I'm Mohit, a passionate developer and gamer.
+                I love building things on the web and automating cool stuff with Python.
+            </p>
+
+            <p>
+                My dream is to work at Rockstar Games and create immersive
+                open-world experiences.
+            </p>
+
+            <p>
+                I'm constantly learning, building, and leveling up my skills every day.
+            </p>
+
+<a href="Mohit_Dabas_Rockstar_Resume_V2.pdf" download class="resume-btn">
+    DOWNLOAD RESUME
+    <i class="fa-solid fa-download"></i>
+</a>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section section">
+        <p class="section-small center">MY SKILLS</p>
+        <h2 class="center">WHAT I DO</h2>
+
+       <div class="skill-card html-card">
+    <i class="fa-brands fa-html5"></i>
+    <p>HTML</p>
+    <div class="stars">★★★★★</div>
+</div>
+
+<div class="skill-card css-card">
+    <i class="fa-brands fa-css3-alt"></i>
+    <p>CSS</p>
+    <div class="stars">★★★★☆</div>
+</div>
+
+<div class="skill-card py-card">
+    <i class="fa-brands fa-python"></i>
+    <p>PYTHON</p>
+    <div class="stars">★★★★☆</div>
+</div>
+
+<div class="skill-card git-card">
+    <i class="fa-brands fa-git-alt"></i>
+    <p>GIT & GITHUB</p>
+    <div class="stars">★★★★☆</div>
+</div>
+
+<div class="skill-card code-card">
+    <i class="fa-solid fa-code"></i>
+    <p>VS CODE</p>
+    <div class="stars">★★★★☆</div>
+</div>
+
+<div class="skill-card bash-card">
+    <i class="fa-solid fa-terminal"></i>
+    <p>BASH</p>
+    <div class="stars">★★★☆☆</div>
+</div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects-section section">
+        <p class="section-small center">PROJECTS</p>
+        <h2 class="center">THINGS I'VE BUILT</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img discord-bg"></div>
+                <h3>DISCORD BOT</h3>
+                <p>
+                    A multipurpose Discord bot with moderation commands,
+                    auto responses, and more.
+                </p>
+                <button>VIEW ON GITHUB ></button>
+            </div>
+<div class="project-card">
+    <div class="project-img calc-bg"></div>
+    <h3>PYTHON CALCULATOR</h3>
+    <p>
+        A professional scientific calculator built with Python and Tkinter.
+        Features include scientific functions, history, memory buttons,
+        dark mode, and keyboard shortcuts.
+    </p>
+
+    <a href="https://github.com/MohitDabas-GTA/Mohits-Calculator">
+        <button>VIEW ON GITHUB ></button>
+    </a>
+</div>
+
+            <div class="project-card">
+                <div class="project-img portfolio-bg"></div>
+                <h3>PORTFOLIO WEBSITE</h3>
+                <p>
+                    This personal portfolio website built using HTML, CSS and animations.
+                </p>
+                <a href="https://github.com/MohitDabas-GTA/mohitdabas">
+                <button>VIEW SOURCE ›</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section section">
+        <div class="contact-left">
+            <p class="section-small">LET'S CONNECT</p>
+            <h2>GET IN TOUCH</h2>
+
+            <p>
+                Have a project in mind or just want to say hi?
+                Feel free to reach out!
+            </p>
+        </div>
+
+        <div class="contact-right">
+            <div class="contact-box">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <h4>EMAIL</h4>
+                    <p>soserohini11.9b.15.mohitdabas@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <i class="fa-brands fa-github"></i>
+                <div>
+                    <h4>GITHUB</h4>
+                    <p>https://github.com/MohitDabas-GTA</p>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <i class="fa-brands fa-linkedin"></i>
+                <div>
+                    <h4>LINKEDIN</h4>
+                    <p>Coming Soon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo">R★</div>
+        <div class="footer-text">
+            © 2026 Mohit Dabas. All Rights Reserved.<br>
+            Design inspired by Rockstar Games.
+        </div>
+
+        <button id="topBtn">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
+    <amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-3434677243870240">
+</amp-auto-ads>
 </html>
